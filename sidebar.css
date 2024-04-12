@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Onest", serif;
+  color: white;
+}
+.container .sidebar{
+  background-color: black;
+}
+.sidebar .logo{
+  display: flex;
+  justify-content: center;
+  margin-left: -7px;
+  margin-top: 15px;
+}
+.sidebar .logo i{
+  color: #cbaa62;
+  font-size: 20px;
+}
+.web-name{
+  margin-left: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: -2px;
+  color: #cbaa62;
+}
+
+.sidebar .menu{
+  margin-top: 50px;
+}
+.sidebar .menu i{
+  font-size: 17px;
+  margin-left: 14px;
+  transition: color 0.3s;
+}
+.sidebar .menu i:hover{
+  color: #cbaa62;
+}
+
+.sidebar .menu .dashboard,
+.sidebar .menu .portfolio,
+.sidebar .menu .wallet,
+.sidebar .menu .refer {
+  margin-top: 30px;
+  font-size: 12px;
+  display: flex;
+  cursor: pointer;
+  
+}
+
+.sidebar .menu p{
+  margin-left: 17px;
+  transition: color 0.3s;
+}
+.sidebar .menu p:hover{
+  color: #cbaa62;
+}

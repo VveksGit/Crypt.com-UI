@@ -1,0 +1,511 @@
+.main-content{
+  background: #031213;
+  padding-left: 50px;
+}
+.main-content .l-content{
+  background-color: #031213;
+  display: grid;
+  grid-template-rows: 120px 1fr 1fr;
+}
+.l-content .balance{
+  background-color: #031213;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 55px;
+  padding-top: 20px;
+}
+.l-content .balance .heading{
+  font-size: 12px;
+}
+.l-content .balance .heading .profit{
+  color: lightgreen;
+  margin-left: 20px;
+}
+.l-content .balance .heading .profit .triangle{
+  font-size: 17px;
+  color: lightgreen;
+}
+.l-content .balance .money{
+  font-size: 27px;
+  margin-top: 8px;
+}
+.l-content .balance .money span{
+  color: grey;
+  font-size: 20px
+}
+
+.l-content .balance .premium-plan{
+  margin-right: 60px;
+  background-color: #cbaa62;
+  width: 350px;
+  height: 70px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: linear-gradient(45deg,#362f05, #a0844c);
+}
+.premium-plan .l-s .bg{
+  font-size: 17px;
+  font-weight: 700;
+}
+.premium-plan .l-s .disc{
+  margin-top: 6px;
+  font-size: 10px;
+  width: 180px;
+}
+.premium-plan .r-s{
+  font-size: 10px;
+  margin-top: 2px;
+  margin-left: 15px;
+  
+}
+.premium-plan .r-s p{
+  margin-top: 5px;
+}
+.main-content .favorites{
+  display: grid;
+  grid-template-rows: 40px 1fr;
+}
+.favorites .upper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px ;
+  padding-right: 40px ;
+}
+.upper .Favorites{
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.upper .live-chart{
+  display: flex;
+  align-items: center;
+  background-color: rgba(147, 147, 147,0.15);
+  padding: 5px 5px 5px 5px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.upper .live-chart i{
+  margin-right: 4px;
+  color: #cbaa62;
+  font-size: 10px;
+}
+.upper .live-chart p{
+  font-size: 12px;
+  margin-right: 2px;
+}
+.upper .live-chart .tr-an{
+  margin-left: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  font-size: 14px;
+  background-color: rgba(132, 128, 128, 0.35);
+  cursor: pointer;
+}
+.upper .See-More{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.See-More .se-mo{
+  color: gray;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 6px;
+  cursor: pointer;
+}
+.See-More .tr-an{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  font-size: 14px;
+  background-color: rgba(132, 128, 128, 0.35);
+  cursor: pointer;
+}
+.main-content .favorites .lower{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px 20px 20px 20px;
+  padding-left: 35px;
+}
+.lower .ethereum,
+.lower .Monero,
+.lower .bitcoin,
+.lower .litecoin{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #182625;
+  width: 150px;
+  height: 180px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-top: 15px; 
+}
+.over-view{
+  display: flex;
+}
+.over-view .coin-name{
+  font-size: 14px;
+  margin-left: 8px;
+  width: 70px;
+}
+.over-view .buy{
+  font-size: 12px;
+  margin-left: 0px;
+  color: grey;
+}
+.over-view i{
+  background-color: rgba(136, 135, 135, 0.25);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.line-chart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  margin-left: -4px;
+  border: none;
+  border-radius: 20%;
+}
+.price{
+  margin-top: 10px;
+}
+.price .pr{
+  font-size: 13px;
+  font-weight: 300;
+}
+.price .stats{
+  margin-top: 3px;
+  font-size: 10px;
+  color: lightgreen;
+  margin-left: -2px;
+}
+.stats span{
+  color: lightgreen;
+  font-size: 12px;
+  margin-right: -2px;
+}
+.l-content .insights{
+  display: grid;
+  grid-template-rows: 60px 1fr;
+}
+.insights .upper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.insights .upper .Insights{
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.insights .upper .see-more{
+  display: flex;
+  align-items: center;
+  margin-right: 45px;
+}
+.insights .upper .see-more .see{
+  color: gray;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 6px;
+  cursor: pointer;
+}
+.insights .upper .see-more .tr-an{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  font-size: 14px;
+  background-color: rgba(132, 128, 128, 0.35);
+  cursor: pointer;
+}
+.insights .lower{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.insights .lower .fir-news,
+.insights .lower .sec-news{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  width: 300px;
+  height: 150px;
+  background-color: #182625;
+  margin-top: 20px;
+  margin-left: 40px;
+  border-radius: 25px;
+  
+}
+.insights .lower .fir-news .news,
+.insights .lower .sec-news .news{
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.fir-news .news .ch-name,
+.sec-news .news .ch-name{
+  font-size: 10px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.fir-news .news .about,
+.sec-news .news .about {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.fir-news .news .about .news-logo,
+.sec-news .news .about .news-logo{
+  width: 20px;
+  border-radius: 50%;
+}
+.fir-news .news .info,
+.sec-news .news .info{
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  width: 140px;
+}
+.fir-news .news .stats,
+.sec-news .news .stats{
+  display: flex;
+  margin-left: 10px;
+}
+.news .stats .time{
+  font-size: 8px;
+}
+.news .stats .time i{
+  margin-right: 3px;
+  font-size: 10px;
+}
+.news .stats .sta-ts{
+  font-size: 8px;
+  margin-left: 15px;
+}
+.news .stats .sta-ts i{
+  font-size: 10px;
+  margin-right: 3px;
+}
+.fir-news .image,
+.sec-news .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+.fir-news .image .headline,
+.sec-news .image .headline{
+  width: 80px;
+  height: 60px;
+  border-radius: 6px;
+}
+
+.main-content .r-content{
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+}
+.r-content{
+  padding-left: 30px;
+}
+
+.r-content .Details .card{
+  width: 200px;
+  height: 180px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.r-content .Details .card .cash{  
+  display: flex;
+  height: 60px;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding-bottom: 10px;
+  background: linear-gradient(45deg,#182625, #536161);
+
+}
+.card .cash i,
+.card .investment i,
+.card .crypto .over-view i{
+  margin-right: 5px;
+  margin-left: 15px;
+  font-size: 12px;
+  background-color: rgba(134, 134, 134, 0.55);
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.card .cash p,
+.card .investment p,
+.card .crypto .over-view p{
+  color: lightgreen;
+  font-size: 9px;
+  font-weight: 600;
+}
+.card .cash .ca-sh,
+.card .investment .invest-ment,
+.card .crypto .over-view .cry-pto{
+  margin-right: 70px;
+  font-size: 12px;
+  color: white;
+  font-weight: 400;
+}
+.card .investment .invest-ment{
+  margin-right: 35px;
+}
+.card .crypto .over-view .cry-pto{
+  margin-right: 56px;
+}
+.r-content .Details .card .investment{
+  height: 60px;
+  display: flex;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-top: -10px;
+  background: linear-gradient(45deg,#314341, #485757);
+}
+.r-content .Details .card .crypto{
+  height: 100px;
+  border-radius: 15px;
+  padding-bottom: 10px;
+  margin-top: -10px;
+  background: linear-gradient(45deg,#495453, #1c4143);
+}
+.r-content .Details .card .crypto .over-view{
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+.r-content .Details .card .crypto .money{
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 22px;
+  font-weight: 300;
+}
+.r-content .Details .card .crypto .money span{
+  color: grey;
+  font-size: 15px;
+}
+
+.Exchange .exchange{
+  width: 200px;
+  height: 350px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 15px;
+  background: linear-gradient(45deg,#182625, #1c4143);
+}
+.exchange .BTC{
+  display: grid;
+  grid-template-rows: 20px 1fr 1fr;
+  padding-left: 10px;
+  margin-top: 10px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(128, 128, 128, 0.65);
+  border-style: solid;
+}
+.BTC .ex-change{
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 6px;
+}
+
+.BTC .price-name .pr-nm,
+.ETH .price-name .pr-nm{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.BTC .price-name .pr-nm i,
+.ETH .price-name .pr-nm i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  font-size: 16px;
+  margin-right: 10px;
+  background-color: rgba(255, 201, 100, 0.25);
+  border-radius: 50%;
+  margin-top: 14px;
+  color: rgb(255, 201, 100);
+}
+.price-name .pr-nm .na-me{
+  font-size: 13px;
+}
+.price-name .price {
+  margin-left: 43px;
+  margin-top: -10px;
+}
+.price-name .price p{
+  font-size: 10px;
+  color: grey;
+}
+.BTC .bal,
+.ETH .bal{
+  margin-top: 15px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.BTC .bal .hold-ing,
+.ETH .bal .hold-ing{
+  font-size: 11px;
+  color: grey;
+  margin-left: 3px;
+  margin-top: 2px;
+}
+.Exchange .exchange .ETH{
+  display: grid;
+  grid-template-rows: 1fr 1fr 40px;
+  padding-left: 15px;
+}
+.exchange .ETH .button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button .buy-eth{
+  width: 180px;
+  height: 25px;
+  margin-left: -12px;
+  margin-top: -10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 700;
+  background: linear-gradient(60deg,#c29433, #f9c75a);
+  box-shadow: inset 2px 2px 5px rgba(255 ,255, 255, 0.45);
+  cursor: pointer;
+}
